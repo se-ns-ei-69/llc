@@ -1,0 +1,85 @@
+{
+  "ua" : {
+    "labels": {
+      "tel": "тел"
+    },
+    "menu": {
+      "products": "Продукція",
+      "about_company": "Про компанію",
+      "contacts": "Контакти"
+    },
+    "name": "ЗПІ Дніпровський",
+    "subheaders": {
+      "partners": "Наші Партнери",
+      "products": {
+        "label": "Продукція",
+        "description": "Ми пропонуємо широкий асортимент жерстяних банок для харчових продуктів різних типів і розмірів. Нижче наведено основні категорії:"
+      },
+      "about": "Про компанію",
+      "contacts": {
+        "label": "Contucts",
+        "description": "Наші співробітники будуть раді вам допомогти і відповісти на запитання"
+      }
+    },
+    "hero-text": {
+      "about": "Ласкаво просимо на сайт ТОВ Завод промислових виробів Дніпровський! Ми раді представити Вам наше підприємство, провідного виробника високоякісної жерстяної банки, для виробництва консервів. Наша компанія заснована в 2008 році в місті Дніпро, Україна. На нашому підприємстві, розташованому в серці України, ми виготовляємо високоякісні жерстяні банки. У виробництві жерстяна банка покривається емаллю, лаком або літографією. Покриття лакуванням і емаллю покращує якість виробленої банки. Літографія забезпечує їм не тільки довговічність, але й естетичну привабливість вашої майбутньої продукції"
+    },
+    "contacts": {
+      "staff": {
+        "sales": {
+          "label": "Відділ продажів",
+          "name": "Вадим Дмитрович Чакир"
+        },
+        "supply": {
+          "label": "Відділ постачання",
+          "name": "???Olga Yurievna Khudokormova???"
+        },
+        "commercial": {
+          "label": "Комерційний відділ",
+          "name": "Андрій Сидоренко"
+        }
+      }
+    }
+  },
+  "en" : {
+    "labels": {
+      "tel": "tel"
+    },
+    "menu": {
+      "products": "Products",
+      "about_company": "About company",
+      "contacts":"Contacts"
+    },
+    "name": "LLC Dneprovskiy",
+    "subheaders": {
+      "partners": "Our Partners",
+      "products": {
+        "label": "Products",
+        "description": "Ми пропонуємо широкий асортимент жерстяних банок для харчових продуктів різних типів і розмірів. Нижче наведено основні категорії:"
+      },
+      "about": "About company",
+      "contacts": {
+        "label": "Contacts",
+        "description": "Our staff will be happy to assist you and answer your questions"
+      }
+    },
+    "hero-text": {
+      "about":"Welcome to the website of Dneprovsky Industrial Products Plant LLC! We are pleased to introduce you to our plant, a leading manufacturer of high-quality tin cans for the production of canned food. Our company was founded in 2008 in the city of Dnipro, Ukraine. At our facility, located in the heart of Ukraine, we produce tin cans that are of high quality due to the special lacquer coating on both sides. In addition, our cans \t\t\tare lithographed, which ensures not only durability but also aesthetic appeal."    },
+    "contacts": {
+      "staff": {
+        "sales": {
+          "label": "Sales Department",
+          "name": "Vadim Dmitrovich Chakir"
+        },
+        "supply": {
+          "label": "Supply Department",
+          "name": "Olga Yurievna Khudokormova"
+        },
+        "commercial": {
+          "label": "Commercial Department",
+          "name": "Andrii Sidorenko"
+        }
+      }
+    }
+  }
+}
