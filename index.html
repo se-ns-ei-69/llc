@@ -9,38 +9,90 @@
 </head>
 <body>
 <header class="header">
-    <div class="logo-wrapper"></div>
-    <nav>
-        <ul class="navigation">
-            <li class="nav-link">
-                <a id="menu-item-products" href="#">Продукція</a>
-            </li>
-            <li class="nav-link">
-                <a id="menu-item-about-company" href="#about-us">Про компанію</a>
-            </li>
-            <li class="nav-link">
-                <a id="menu-item-contacts" href="#contacts">Контакти</a>
-            </li>
-        </ul>
-    </nav>
-    <div class="language-toggle">
-        <button id="switch-to-ua" class="language-button active" onclick="switchLanguage('ua')">Укр</button>
-        <span>|</span>
-        <button id="switch-to-en" class="language-button" onclick="switchLanguage('en')">En</button>
+    <div class="header-wrapper">
+        <div class="logo-wrapper">
+            <img src="assets/images/logo/logo1.png" alt="dp logo" width="100">
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li>
+                    <a class="nav-link" id="menu-item-products" href="#">Продукція</a>
+                </li>
+                <li >
+                    <a class="nav-link" id="menu-item-about-company" href="#about-us">Про компанію</a>
+                </li>
+                <li>
+                    <a class="nav-link" id="menu-item-contacts" href="#contacts">Контакти</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="language-toggle">
+            <button id="switch-to-ua" class="language-button" onclick="switchLanguage('ua')">Укр</button>
+            <span>|</span>
+            <button id="switch-to-en" class="language-button" onclick="switchLanguage('en')">En</button>
+        </div>
     </div>
 </header>
 <main>
     <section class="hero-section">
         <div class="container">
-            <div class="wrapper">
-
+            <div class="hero-section-wrapper">
+                <h1 class="hero_header" id="hero_header">LLC Dneprovskiy</h1>
+                <h3 class="hero_subheader">Since 2008</h3>
+            </div>
+        </div>
+    </section>
+    <section class="location-section">
+        <div class="container">
+            <div class="location-section-wrapper">
+               <img class="map_image" src="assets/images/map.png" alt="map">
             </div>
         </div>
     </section>
     <section class="partners-section">
         <div class="container">
+            <img src="assets/images/hero-bg.jpg" alt="">
             <div class="wrapper">
-
+                <div class="carousel">
+                    <div class="carousel-track">
+                        <div class="carousel-item">
+                            <img src="./assets/images/logo/0188762d-b5ea-71bc-9684-1da50419527e.png" alt="Logo 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/logo/images.jpeg" alt="Logo 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/logo/logo62.png" alt="Logo 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/logo/logo_metal.png" alt="Logo 4">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/logo/Logo_Verbena-2.png" alt="Logo 6">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/logo/logoBig.png" alt="Logo 7">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/logo/logodunai.png" alt="Logo 8">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/logo/logoekvator.png" alt="Logo 9">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/logo/noroot.png" alt="Logo 10">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/logo/top_logo.png" alt="Logo 10">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/logo/logo.svg" alt="Logo 10">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/logo/Central%20Fish%20лого.webp" alt="Logo 10">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -48,28 +100,263 @@
         <div class="container">
             <section class="gallery">
                 <figure class="gallery__item gallery__item--1">
-                    <img src="assets/images/DSC03629_resized.jpg" class="gallery__img" alt="Image 1">
+                    <img src="assets/images/DSC03629_resized.jpg" class="gallery__img fit-cover" alt="Image 1">
                 </figure>
                 <figure class="gallery__item gallery__item--2">
-                    <img src="assets/images/DSC02739_resized.jpg" class="gallery__img" alt="Image 2">
+                    <img src="assets/images/DSC02739_resized.jpg" class="gallery__img fit-cover" alt="Image 2">
                 </figure>
                 <figure class="gallery__item gallery__item--3">
-                    <img src="assets/images/DSC02744_resized.jpg" class="gallery__img" alt="Image 3">
+                    <img src="assets/images/DSC02744_resized.jpg" class="gallery__img fit-cover" alt="Image 3">
                 </figure>
                 <figure class="gallery__item gallery__item--4">
-                    <img src="assets/images/DSC03052_resized.jpg" class="gallery__img" alt="Image 4">
+                    <img src="assets/images/DSC03052_resized.jpg" class="gallery__img fit-cover" alt="Image 4">
                 </figure>
                 <figure class="gallery__item gallery__item--5">
-                    <img src="assets/images/DSC03577_resized.jpg" class="gallery__img" alt="Image 5">
+                    <img src="assets/images/DSC03203_resized.jpg" class="gallery__img fit-cover" alt="Image 5">
                 </figure>
                 <figure class="gallery__item gallery__item--6">
-                    <img src="assets/images/DSC02744_resized.jpg" class="gallery__img" alt="Image 6">
+                    <img src="assets/images/DSC02744_resized.jpg" class="gallery__img fit-cover" alt="Image 6">
                 </figure>
             </section>
         </div>
     </section>
-    <section class="location-section"></section>
-    <section class="product-section"></section>
+    <section class="location-section">
+    </section>
+    <section class="product-section">
+        <div class="container">
+            <h2 id="products_header">Products</h2>
+            <p id="products_description">
+                All cans produced at ZPI Dneprovskyi undergo rigorous quality control. Tin sheets are cut
+                into the necessary blanks, which are then subjected to the stamping process. This process
+                involves pressing the material to form the body of the can. The blank passes through
+                several presses, gradually forming a cylindrical shape. The body seams are welded to
+                ensure airtightness. Inside, the seam is coated with powder and liquid lacquer to prevent
+                corrosion. After assembly, the can is sterilized. Its airtightness and resistance to external
+                influences are thoroughly tested. At the customer's request, lithography with logos and
+                other markings is applied to the exterior of the can using special printers, giving the can a
+                unique style and informing the consumer. The production of tin cans at ZPI Dneprovskyi
+                requires high precision and control at every stage to ensure the quality and safety of the
+                product, as well as compliance with industry standards and requirements.
+            </p>
+            <section class="gallery_products">
+                <div class="catalog-card">
+                    <div class="image-container">
+                        <img src="assets/images/product_1.png" alt="Product Image">
+                    </div>
+                    <div class="info">
+                        <h3>Tin can №8</h3>
+                        <p>3 piece can d99 mm H no more than 52 mm</p>
+                    </div>
+                </div>
+                <div class="catalog-card">
+                    <div class="image-container">
+                        <img src="assets/images/product_2.png" alt="Product Image">
+                    </div>
+                    <div class="info">
+                        <h3>Tin can №3</h3>
+                        <p>2 piece can C d99 mm H no more than 38,5 mm</p>
+                    </div>
+                </div>
+                <div class="catalog-card">
+                    <div class="image-container">
+                        <img src="assets/images/product_3.png" alt="Product Image">
+                    </div>
+                    <div class="info">
+                        <h3>Tin can №1</h3>
+                        <p>2 piece can C d99 mm H no more than 38,5 mm</p>
+                    </div>
+                </div>
+                <div class="catalog-card">
+                    <div class="image-container">
+                        <img src="assets/images/product_4.png" alt="Product Image">
+                    </div>
+                    <div class="info">
+                        <h3>Tin can №5</h3>
+                        <p>3 piece can d83,4 mm H no more than 52 mm</p>
+                    </div>
+                </div>
+                <div class="catalog-card">
+                    <div class="image-container">
+                        <img src="assets/images/product_5.png" alt="Product Image">
+                    </div>
+                    <div class="info">
+                        <h3>Tin can №9</h3>
+                        <p>3 piece can d73 mm H no more than 95 mm</p>
+                    </div>
+                </div>
+                <div class="catalog-card">
+                    <div class="image-container">
+                        <img src="assets/images/product_6.png" alt="Product Image">
+                    </div>
+                    <div class="info">
+                        <h3>Tin can №49</h3>
+                        <p>3 piece can d83,4 mm H no more than 85 mm</p>
+                    </div>
+                </div>
+                <div class="catalog-card">
+                    <div class="image-container">
+                        <img src="assets/images/product_7.png" alt="Product Image">
+                    </div>
+                    <div class="info">
+                        <h3>Tin can №12</h3>
+                        <p>3 piece can d99 mm H no more than 82 mm</p>
+                    </div>
+                </div>
+                <div class="catalog-card">
+                    <div class="image-container">
+                        <img src="assets/images/product_8.png" alt="Product Image">
+                    </div>
+                    <div class="info">
+                        <h3>Tin can №2</h3>
+                        <p>2 piece can C d99 H no more than 28 mm</p>
+                    </div>
+                </div>
+                <div class="catalog-card">
+                    <div class="image-container">
+                        <img src="assets/images/product_9.png" alt="Product Image">
+                    </div>
+                    <div class="info">
+                        <h3>Can № 5 with lithography “BiG BOB”</h3>
+                        <p>Size: 100ml</p>
+                    </div>
+                </div>
+                <div class="catalog-card">
+                    <div class="image-container">
+                        <img src="assets/images/product_10.png" alt="Product Image">
+                    </div>
+                    <div class="info">
+                        <h3>Can № 5 with lithography “Добре Поїсти”</h3>
+                        <p>Size: 100ml</p>
+                    </div>
+                </div>
+                <div class="catalog-card">
+                    <div class="image-container">
+                        <img src="assets/images/product_11.png" alt="Product Image">
+                    </div>
+                    <div class="info">
+                        <h3>Can № 1 with lithography “Екватор”</h3>
+                        <p>Size: 100ml</p>
+                    </div>
+                </div>
+                <div class="catalog-card">
+                    <div class="image-container">
+                        <img src="assets/images/product_12.png" alt="Product Image">
+                    </div>
+                    <div class="info">
+                        <h3>Can № 1 with lithography “Veladis”</h3>
+                        <p>Size: 100ml</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section class="table-container">
+        <div class="container">
+            <div class="table-container">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Номер</th>
+                        <th>Назва виробу</th>
+                        <th>Розмір виробу</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Жерстяна Банка №49</td>
+                        <td>Зварна банка Ø83,4 мм H не більше ніж 85 мм</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Жерстяна Банка №8</td>
+                        <td>Зварна банка Ø99 мм H не більше ніж 52 мм</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Жерстяна Банка №12</td>
+                        <td>Зварна банка Ø99 мм H не більше ніж 82 мм</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Жерстяна Банка №61</td>
+                        <td>Зварна банка Ø99 мм H не більше ніж 82 мм</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Жерстяна Банка №66</td>
+                        <td>Зварна банка Ø73 мм H не більше ніж 66 мм</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Жерстяна Банка №9</td>
+                        <td>Зварна банка C Ø73 мм H не більше ніж 95 мм</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Жерстяна Банка №5</td>
+                        <td>Зварна банка Ø83,4 мм H не більше ніж 52 мм</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Жерстяна Банка №38</td>
+                        <td>Зварна банка C Ø83,4 мм H не більше ніж 46 мм</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Жерстяна Банка №1</td>
+                        <td>Зварна банка Ø73 мм H не більше ніж 31 мм</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Жерстяна Банка №1</td>
+                        <td>Зварна банка C Ø73 мм H не більше ніж 32 мм</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>Жерстяна Банка №5</td>
+                        <td>Тягнута банка C Ø83,4 мм H не більше ніж 52 мм</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>Жерстяна Банка №3</td>
+                        <td>Тягнута банка C Ø99 мм H не більше ніж 38,5 мм</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>Жерстяна Банка №3</td>
+                        <td>Тягнута банка C Ø99 H не більше ніж 28 мм</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>Жерстяна Кришка 99</td>
+                        <td>Кришка Ø83,4 мм</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>Жерстяна Кришка 83,4</td>
+                        <td>Кришка Ø83,4 мм</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>Жерстяна Кришка EOE 73</td>
+                        <td>Кришка EOE Ø73 мм</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td>Жерстяна КришкаEOE 83,4</td>
+                        <td>Кришка EOE Ø83,4 мм</td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td>Жерстяна КришкаEOE 99</td>
+                        <td>Кришка EOE Ø99 мм</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
     <section id="about-us" class="about-us-section">
         <div class="container">
             <div class="section-header">
@@ -78,14 +365,14 @@
             </div>
             <div class="row-2-wrapper">
                 <div class="about-us-text-container">
-                    <p>
+                    <p id="about-text-part1">
                         Welcome to the website of Dneprovsky Industrial Products
                         Plant LLC! We are pleased to introduce you to our plant, a
                         leading manufacturer of high-quality tin cans for the
                         production of canned food. Our company was founded in
                         2008 in the city of Dnipro, Ukraine.
                     </p>
-                    <p>
+                    <p id="about-text-part2">
                         At our facility, located in the heart of Ukraine, we produce
                         tin cans that are of high quality due to the special lacquer
                         coating on both sides. In addition, our cans are lithographed,
@@ -93,7 +380,7 @@
                     </p>
                 </div>
                 <div class="about-us-image-container">
-                    <img src="assets/images/DSC03276_resized.jpg" alt="photo" width="100%">
+                    <img class="about-image" src="assets/images/DSC03276_resized.jpg" alt="photo">
                 </div>
             </div>
         </div>

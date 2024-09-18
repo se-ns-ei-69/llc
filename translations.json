@@ -13,7 +13,7 @@
       "partners": "Наші Партнери",
       "products": {
         "label": "Продукція",
-        "description": "Ми пропонуємо широкий асортимент жерстяних банок для харчових продуктів різних типів і розмірів. Нижче наведено основні категорії:"
+        "description": "Всі банки, що виготовляються на ЗПІ Днепровським, проходять ретельний контроль\nякості. Листи жерсті нарізаються на необхідні заготовки, які потім піддаються\nпроцесу штампування. Цей процес включає пресування матеріалу для надання\nформи корпусу банки. Заготовка проходить через кілька пресів, поступово\nформуючи циліндричну форму. Шви корпусу зварюються для забезпечення\nгерметичності. Всередині шов покривається порошковим та рідким лаком для\nзапобігання корозії. Після зборки банку стерилізують. Також перевіряється її\nгерметичність та стійкість до зовнішніх впливів. За бажанням замовника на\nзовнішню поверхню банки наноситься літографія з логотипами та іншими\nмаркуваннями за допомогою спеціальних принтерів, що надає банці індивідуальний\nстиль та інформує споживача. Виробництво жерстяної банки на ЗПІ Дніпровським\nпотребує високої точності та контролю на кожному етапі, щоб забезпечити якість і\nбезпеку продукції, а також відповідність стандартам і вимогам галузі."
       },
       "about": "Про компанію",
       "contacts": {
@@ -21,8 +21,11 @@
         "description": "Наші співробітники будуть раді вам допомогти і відповісти на запитання"
       }
     },
-    "hero-text": {
-      "about": "Ласкаво просимо на сайт ТОВ Завод промислових виробів Дніпровський! Ми раді представити Вам наше підприємство, провідного виробника високоякісної жерстяної банки, для виробництва консервів. Наша компанія заснована в 2008 році в місті Дніпро, Україна. На нашому підприємстві, розташованому в серці України, ми виготовляємо високоякісні жерстяні банки. У виробництві жерстяна банка покривається емаллю, лаком або літографією. Покриття лакуванням і емаллю покращує якість виробленої банки. Літографія забезпечує їм не тільки довговічність, але й естетичну привабливість вашої майбутньої продукції"
+    "hero_text": {
+      "about": {
+        "part1": "Ласкаво просимо на сайт ТОВ Завод промислових виробів Дніпровський! Ми раді представити Вам наше підприємство, провідного виробника високоякісної жерстяної банки, для виробництва консервів. Наша компанія заснована в 2008 році в місті Дніпро, Україна.",
+        "part2": "На нашому підприємстві, розташованому в серці України, ми виготовляємо високоякісні жерстяні банки. У виробництві жерстяна банка покривається емаллю, лаком або літографією. Покриття лакуванням і емаллю покращує якість виробленої банки. Літографія забезпечує їм не тільки довговічність, але й естетичну привабливість вашої майбутньої продукції"
+      }
     },
     "contacts": {
       "staff": {
@@ -55,7 +58,7 @@
       "partners": "Our Partners",
       "products": {
         "label": "Products",
-        "description": "Ми пропонуємо широкий асортимент жерстяних банок для харчових продуктів різних типів і розмірів. Нижче наведено основні категорії:"
+        "description": "All cans produced at ZPI Dneprovskyi undergo rigorous quality control. Tin sheets are cut into the necessary blanks, which are then subjected to the stamping process. This process involves pressing the material to form the body of the can. The blank passes through several presses, gradually forming a cylindrical shape. The body seams are welded to ensure airtightness. Inside, the seam is coated with powder and liquid lacquer to prevent corrosion. After assembly, the can is sterilized. Its airtightness and resistance to external influences are thoroughly tested. At the customer's request, lithography with logos and other markings is applied to the exterior of the can using special printers, giving the can a unique style and informing the consumer. The production of tin cans at ZPI Dneprovskyi requires high precision and control at every stage to ensure the quality and safety of the product, as well as compliance with industry standards and requirements."
       },
       "about": "About company",
       "contacts": {
@@ -63,8 +66,12 @@
         "description": "Our staff will be happy to assist you and answer your questions"
       }
     },
-    "hero-text": {
-      "about":"Welcome to the website of Dneprovsky Industrial Products Plant LLC! We are pleased to introduce you to our plant, a leading manufacturer of high-quality tin cans for the production of canned food. Our company was founded in 2008 in the city of Dnipro, Ukraine. At our facility, located in the heart of Ukraine, we produce tin cans that are of high quality due to the special lacquer coating on both sides. In addition, our cans \t\t\tare lithographed, which ensures not only durability but also aesthetic appeal."    },
+    "hero_text": {
+      "about": {
+        "part1": "Welcome to the website of Dneprovsky Industrial Products Plant LLC! We are pleased to introduce you to our plant, a leading manufacturer of high-quality tin cans for the production of canned food. Our company was founded in 2008 in the city of Dnipro, Ukraine.",
+        "part2": "At our facility, located in the heart of Ukraine, we produce tin cans that are of high quality due to the special lacquer coating on both sides. In addition, our cans \t\t\tare lithographed, which ensures not only durability but also aesthetic appeal."
+      }
+    },
     "contacts": {
       "staff": {
         "sales": {
