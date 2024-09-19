@@ -13,11 +13,11 @@
       "partners": "Наші Партнери",
       "products": {
         "label": "Продукція",
-        "description": "Всі банки, що виготовляються на ЗПІ Днепровським, проходять ретельний контроль\nякості. Листи жерсті нарізаються на необхідні заготовки, які потім піддаються\nпроцесу штампування. Цей процес включає пресування матеріалу для надання\nформи корпусу банки. Заготовка проходить через кілька пресів, поступово\nформуючи циліндричну форму. Шви корпусу зварюються для забезпечення\nгерметичності. Всередині шов покривається порошковим та рідким лаком для\nзапобігання корозії. Після зборки банку стерилізують. Також перевіряється її\nгерметичність та стійкість до зовнішніх впливів. За бажанням замовника на\nзовнішню поверхню банки наноситься літографія з логотипами та іншими\nмаркуваннями за допомогою спеціальних принтерів, що надає банці індивідуальний\nстиль та інформує споживача. Виробництво жерстяної банки на ЗПІ Дніпровським\nпотребує високої точності та контролю на кожному етапі, щоб забезпечити якість і\nбезпеку продукції, а також відповідність стандартам і вимогам галузі."
+        "description": "У виробництві жерстяних банок, ЗПІ Дніпровському банки нарізаються із заготовок жерсті. Після формування всі шви обробляються порошковим, а потім рідким лаком.За бажанням замовника можна додати літографію з логотипом та іншими маркуваннями. Виробництво вимагає високої точності та контролю на кожному етапі для забезпечення якості й безпеки продукції."
       },
       "about": "Про компанію",
       "contacts": {
-        "label": "Contucts",
+        "label": "Контакти",
         "description": "Наші співробітники будуть раді вам допомогти і відповісти на запитання"
       }
     },
@@ -58,7 +58,7 @@
       "partners": "Our Partners",
       "products": {
         "label": "Products",
-        "description": "All cans produced at ZPI Dneprovskyi undergo rigorous quality control. Tin sheets are cut into the necessary blanks, which are then subjected to the stamping process. This process involves pressing the material to form the body of the can. The blank passes through several presses, gradually forming a cylindrical shape. The body seams are welded to ensure airtightness. Inside, the seam is coated with powder and liquid lacquer to prevent corrosion. After assembly, the can is sterilized. Its airtightness and resistance to external influences are thoroughly tested. At the customer's request, lithography with logos and other markings is applied to the exterior of the can using special printers, giving the can a unique style and informing the consumer. The production of tin cans at ZPI Dneprovskyi requires high precision and control at every stage to ensure the quality and safety of the product, as well as compliance with industry standards and requirements."
+        "description": "In the production of tin cans at ZPI Dneprovskyi, cans are cut from tin blanks. After forming, all seams are treated with powder lacquer, followed by liquid lacquer. At the customer's request, lithography with logos and other markings can be applied. The production requires high precision and control at every stage to ensure product quality and\nsafety."
       },
       "about": "About company",
       "contacts": {
