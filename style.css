@@ -261,12 +261,21 @@ ul {
 .contact-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 1rem;
-    line-height: 1.5;
+    line-height: 1.6;
     font-weight: 500;
+    font-size: 24px;
+    background-color: #ffffff;
+    color: #3a3a3a;
+    padding: 2rem;
+    border-radius: 25px;
+}
+.contact-container h3 {
+    color: #000000;
 }
 .contact_link {
-
+    transition: color 0.2s;
 }
 .contact_link:hover {
     cursor: pointer;
