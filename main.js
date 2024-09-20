@@ -45,31 +45,31 @@ const tableContentArray = {
 
 const cardsContentArray = {
     ua:[
-        ['Жерстяна Банка №8', 'Зварна банка Ø99 мм H не більше ніж 52 мм'],
-        ['Жерстяна Банка №3', 'Тягнута банка C Ø99 мм H не більше ніж 38,5 мм'],
-        ['Жерстяна Банка №1', 'Тягнута банка C Ø99 мм H не більше ніж 38,5 мм'],
-        ['Жерстяна Банка №5', '2 piece can C Ø83,4 mm H no more than 52 mm'],
-        ['Жерстяна Банка №9', '3 piece can Ø73 mm H no more than 95 mm'],
-        ['Жерстяна Банка №49', '3 piece can Ø83,4 mm H no more than 85 mm'],
-        ['Жерстяна Банка №12', '3 piece can Ø99 mm H no more than 82 mm'],
-        ['Жерстяна Банка №2', '2 piece can C Ø99 H no more than 28 mm'],
-        ['Банка №5', 'with lithography “BiG BOB”'],
-        ['Банка №12 б', 'with lithography “Добре Поїсти”'],
-        ['Банка №1', 'with lithography “Екватор”'],
-        ['Банка №1', 'with lithography “Veladis”'],
+        ['Жерстяна Банка №8'],
+        ['Жерстяна Банка №3'],
+        ['Жерстяна Банка №1'],
+        ['Жерстяна Банка №5'],
+        ['Жерстяна Банка №9'],
+        ['Жерстяна Банка №49'],
+        ['Жерстяна Банка №12'],
+        ['Жерстяна Банка №2'],
+        ['Банка №5'],
+        ['Банка №12 б', 'з літографією “Добре Поїсти”'],
+        ['Банка №1', 'з літографією “Екватор”'],
+        ['Банка №1', 'з літографією “Veladis”'],
         ['Жерстяна кришка та EOE 83,4'],
         ['Жерстяна кришка та EOE 99'],
         ['Жерстяна кришка та EOE 73']
     ],
     en:[
-        ['Tin Can №8', '3 piece can Ø99 mm H no more than 52 mm'],
-        ['Tin Can №3', '2 piece can C Ø99 mm H no more than 38,5 mm'],
-        ['Tin Can №1', '2 piece can C d99 mm H no more than 38,5 mm'],
-        ['Tin Can №5', '2 piece can C Ø83,4 mm H no more than 52 mm'],
-        ['Tin Can №9', '3 piece can Ø73 mm H no more than 95 mm'],
-        ['Tin Can №49', '3 piece can Ø83,4 mm H no more than 85 mm'],
-        ['Tin Can №12', '3 piece can Ø99 mm H no more than 82 mm'],
-        ['Tin Can №2', '2 piece can C Ø99 H no more than 28 mm'],
+        ['Tin Can №8'],
+        ['Tin Can №3'],
+        ['Tin Can №1'],
+        ['Tin Can №5'],
+        ['Tin Can №9'],
+        ['Tin Can №49'],
+        ['Tin Can №12'],
+        ['Tin Can №2'],
         ['Can №5', 'with lithography “BiG BOB”'],
         ['Can №12 b', 'with lithography “Добре Поїсти”'],
         ['Can №1', 'with lithography “Екватор”'],
@@ -83,8 +83,9 @@ const cardsContentArray = {
 function switchCardsLang(lang) {
     const cardsContainer= document.getElementById('gallery_products');
     const cards = cardsContainer.querySelectorAll('.catalog-card')
+
     cardsContentArray[lang].forEach((rowData, rowIndex) => {
-        const cells = rows[rowIndex].querySelectorAll('td');
+        const cells = cards[rowIndex].querySelectorAll('h3');
         rowData.forEach((cellData, cellIndex) => {
             cells[cellIndex].textContent = cellData;
         });
@@ -102,6 +103,7 @@ function loadTranslations() {
 }
 
 function switchLanguage(lang) {
+    switchCardsLang(lang)
     const table = document.getElementById('products_tbody');
     const rows = table.querySelectorAll('tr');
 
@@ -114,17 +116,32 @@ function switchLanguage(lang) {
     document.getElementById('switch-to-ua').classList.remove('active');
     document.getElementById('switch-to-en').classList.remove('active');
     if (translations[lang]) {
+//menu links
         document.getElementById('menu-item-contacts').textContent = translations[lang].menu.contacts;
         document.getElementById('menu-item-products').textContent = translations[lang].menu.products;
         document.getElementById('menu-item-about-company').textContent = translations[lang].menu.about_company;
+
+        document.getElementById('hero_header').textContent = translations[lang].name;
+        document.getElementById('partners_header').textContent = translations[lang].subheaders.partners;
+
+        document.getElementById('about_us_header').textContent = translations[lang].subheaders.about;
         document.getElementById('about-text-part1').textContent = translations[lang].hero_text.about.part1;
         document.getElementById('about-text-part2').textContent = translations[lang].hero_text.about.part2;
-        document.getElementById('hero_header').textContent = translations[lang].name;
+
         document.getElementById('products_description').textContent = translations[lang].subheaders.products.description;
         document.getElementById('products_header').textContent = translations[lang].subheaders.products.label;
-        document.getElementById('contacts_header').textContent = translations[lang].subheaders.contacts.label;
+
+        document.querySelectorAll('.contacts_header').forEach(node => node.textContent = translations[lang].subheaders.contacts.label );
         document.getElementById('contacts_description').textContent = translations[lang].subheaders.contacts.description;
-        document.getElementById('partners_header').textContent = translations[lang].subheaders.partners;
+//contacts
+        document.querySelectorAll('.sales_label').forEach(node => node.textContent = translations[lang].contacts.staff.sales.label)
+        document.querySelectorAll('.sales_name').forEach(node => node.textContent = translations[lang].contacts.staff.sales.name)
+
+        document.querySelectorAll('.supply_label').forEach(node => node.textContent = translations[lang].contacts.staff.supply.label)
+        document.querySelectorAll('.supply_name').forEach(node => node.textContent = translations[lang].contacts.staff.supply.name)
+
+        document.getElementById('commercial_label').textContent = translations[lang].contacts.staff.commercial.label;
+        document.getElementById('commercial_name').textContent = translations[lang].contacts.staff.commercial.name;
 
         if (lang === 'ua') {
             document.getElementById('switch-to-ua').classList.add('active');
@@ -168,3 +185,27 @@ function addAnimation() {
 //         });
 //     });
 // }
+
+const burgerMenu = document.getElementById('burger-menu');
+const navigation = document.getElementById('nav');
+const body = document.body;
+
+burgerMenu.addEventListener('click', function () {
+    navigation.classList.toggle('open');
+    burgerMenu.classList.toggle('open');
+
+    if (burgerMenu.classList.contains('open')) {
+        body.classList.add('disable-scroll');
+    } else {
+        body.classList.remove('disable-scroll');
+    }
+});
+
+const menuLinks = document.querySelectorAll('.menu-link');
+menuLinks.forEach(link => {
+    link.addEventListener('click', function () {
+        navigation.classList.remove('open');
+        burgerMenu.classList.remove('open');
+        body.classList.remove('disable-scroll');
+    });
+});

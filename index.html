@@ -11,25 +11,34 @@
 <header class="header">
     <div class="header-wrapper">
         <div class="logo-wrapper">
-            <a href="#"><img src="assets/images/logo/logo1.png" alt="dp logo" width="100"></a>
+            <a href="#" class="menu-link"><img src="assets/images/logo/logo1.png" alt="dp logo" width="100"></a>
         </div>
-        <nav>
-            <ul class="navigation">
-                <li>
-                    <a class="nav-link" id="menu-item-products" href="#">Продукція</a>
-                </li>
-                <li >
-                    <a class="nav-link" id="menu-item-about-company" href="#about-us">Про компанію</a>
-                </li>
-                <li>
-                    <a class="nav-link" id="menu-item-contacts" href="#contacts">Контакти</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="language-toggle">
-            <button id="switch-to-ua" class="language-button" onclick="switchLanguage('ua')">Укр</button>
-            <span>|</span>
-            <button id="switch-to-en" class="language-button" onclick="switchLanguage('en')">En</button>
+        <div class="nav_container">
+            <nav class="nav" id="nav">
+                <ul id="navigation" class="nav-list">
+                    <li>
+                        <a class="nav-link menu-link" id="menu-item-products" href="#product-section">Продукція</a>
+                    </li>
+                    <li >
+                        <a class="nav-link menu-link" id="menu-item-about-company" href="#about-us-section">Про компанію</a>
+                    </li>
+                    <li>
+                        <a class="nav-link menu-link" id="menu-item-contacts" href="#contacts">Контакти</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header_right_section">
+            <div class="language-toggle">
+                <button id="switch-to-ua" class="language-button" onclick="switchLanguage('ua')">Укр</button>
+                <span>|</span>
+                <button id="switch-to-en" class="language-button" onclick="switchLanguage('en')">En</button>
+            </div>
+            <div class="burger-menu" id="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </div>
 </header>
@@ -160,16 +169,16 @@
         <div class="container">
             <div class="row-2-wrapper">
                 <div>
-                    <h2>Contacts</h2>
+                    <h2 class="contacts_header">Contacts</h2>
                     <div class="contact-container">
-                        <h3>Sales Department:</h3>
-                        <p>Vadim Dmitrovich Chakir</p>
+                        <h3 class="sales_label">Sales Department:</h3>
+                        <p class="sales_name">Vadim Dmitrovich Chakir</p>
                         <p>Email: vadymchakyr@gmail.com</p>
                         <p>Tel: +38 (093) 837-58-27</p>
                     </div>
                     <div class="contact-container">
-                        <h3>Supply Department:</h3>
-                        <p>Olga Yurievna Khudokormova</p>
+                        <h3 class="supply_label">Supply Department:</h3>
+                        <p class="supply_label">Olga Yurievna Khudokormova</p>
                         <p>Email: hudokormova75@gmail.com</p>
                         <p>Tel: +38 (067) 562-83-24</p>
                         <p>Tel: +38 (056) 732-03-40</p>
@@ -200,7 +209,7 @@
             <img style="object-fit: cover; width: 100%" src="assets/images/map.png" alt="map image">
         </div>
     </section>
-    <section class="product-section">
+    <section id="product-section" class="product-section">
         <div class="section-header">
             <div class="subheader-container">
                 <h2 id="products_header" class="subheader">Products</h2>
@@ -217,33 +226,16 @@
                     requires high precision and control at every stage to ensure the quality and safety of the
                     product, as well as compliance with industry standards and requirements.
                 </p>
-<!--                <h2 class="subheader">About the Company</h2>-->
-<!--                <h3>Since 2008</h3>-->
             </div>
         </div>
         <div class="container">
-<!--            <h2 id="products_header" class="subheader">Products</h2>-->
-<!--            <p id="products_description">-->
-<!--                All cans produced at ZPI Dneprovskyi undergo rigorous quality control. Tin sheets are cut-->
-<!--                into the necessary blanks, which are then subjected to the stamping process. This process-->
-<!--                involves pressing the material to form the body of the can. The blank passes through-->
-<!--                several presses, gradually forming a cylindrical shape. The body seams are welded to-->
-<!--                ensure airtightness. Inside, the seam is coated with powder and liquid lacquer to prevent-->
-<!--                corrosion. After assembly, the can is sterilized. Its airtightness and resistance to external-->
-<!--                influences are thoroughly tested. At the customer's request, lithography with logos and-->
-<!--                other markings is applied to the exterior of the can using special printers, giving the can a-->
-<!--                unique style and informing the consumer. The production of tin cans at ZPI Dneprovskyi-->
-<!--                requires high precision and control at every stage to ensure the quality and safety of the-->
-<!--                product, as well as compliance with industry standards and requirements.-->
-<!--            </p>-->
             <section id="gallery_products" class="gallery_products">
                 <div class="catalog-card">
                     <div class="image-container">
                         <img src="assets/images/product_1.png" alt="Product Image">
                     </div>
                     <div class="info">
-                        <h3>Tin can №8</h3>
-<!--                        <p class="size_text">3 piece can d99 mm H no more than 52 mm</p>-->
+                        <h3 class="card_header">Tin can №8</h3>
                     </div>
                 </div>
                 <div class="catalog-card">
@@ -251,8 +243,7 @@
                         <img src="assets/images/product_2.png" alt="Product Image">
                     </div>
                     <div class="info">
-                        <h3>Tin can №3</h3>
-<!--                        <p class="size_text">2 piece can C d99 mm H no more than 38,5 mm</p>-->
+                        <h3 class="card_header">Tin can №3</h3>
                     </div>
                 </div>
                 <div class="catalog-card">
@@ -260,8 +251,7 @@
                         <img src="assets/images/product_3.png" alt="Product Image">
                     </div>
                     <div class="info">
-                        <h3>Tin can №1</h3>
-<!--                        <p class="size_text">2 piece can C d99 mm H no more than 38,5 mm</p>-->
+                        <h3 class="card_header">Tin can №1</h3>
                     </div>
                 </div>
                 <div class="catalog-card">
@@ -269,8 +259,7 @@
                         <img src="assets/images/product_4.png" alt="Product Image">
                     </div>
                     <div class="info">
-                        <h3>Tin can №5</h3>
-<!--                        <p class="size_text">3 piece can d83,4 mm H no more than 52 mm</p>-->
+                        <h3 class="card_header">Tin can №5</h3>
                     </div>
                 </div>
                 <div class="catalog-card">
@@ -278,8 +267,7 @@
                         <img src="assets/images/product_5.png" alt="Product Image">
                     </div>
                     <div class="info">
-                        <h3>Tin can №9</h3>
-<!--                        <p class="size_text">3 piece can d73 mm H no more than 95 mm</p>-->
+                        <h3 class="card_header">Tin can №9</h3>
                     </div>
                 </div>
                 <div class="catalog-card">
@@ -287,7 +275,7 @@
                         <img src="assets/images/product_6.png" alt="Product Image">
                     </div>
                     <div class="info">
-                        <h3>Tin can №49</h3>
+                        <h3 class="card_header">Tin can №49</h3>
                     </div>
                 </div>
                 <div class="catalog-card">
@@ -295,7 +283,7 @@
                         <img src="assets/images/product_7.png" alt="Product Image">
                     </div>
                     <div class="info">
-                        <h3>Tin can №12</h3>
+                        <h3 class="card_header">Tin can №12</h3>
                     </div>
                 </div>
                 <div class="catalog-card">
@@ -303,7 +291,7 @@
                         <img src="assets/images/product_8.png" alt="Product Image">
                     </div>
                     <div class="info">
-                        <h3>Tin can №2</h3>
+                        <h3 class="card_header">Tin can №2</h3>
                     </div>
                 </div>
                 <div class="catalog-card">
@@ -311,8 +299,8 @@
                         <img src="assets/images/product_9.png" alt="Product Image">
                     </div>
                     <div class="info">
-                        <h3>Can № 5</h3>
-                        <p class="additional_info_text">with lithography “BiG BOB”</p>
+                        <h3 class="card_header">Can № 5</h3>
+                        <h3 class="additional_info_text">with lithography “BiG BOB”</h3>
                     </div>
                 </div>
                 <div class="catalog-card">
@@ -320,8 +308,8 @@
                         <img src="assets/images/product_10.png" alt="Product Image">
                     </div>
                     <div class="info">
-                        <h3>Can № 12 b</h3>
-                        <p class="additional_info_text">with lithography “Добре Поїсти”</p>
+                        <h3 class="card_header">Can № 12 b</h3>
+                        <h3 class="additional_info_text">with lithography “Добре Поїсти”</h3>
                     </div>
                 </div>
                 <div class="catalog-card">
@@ -329,8 +317,8 @@
                         <img src="assets/images/product_11.png" alt="Product Image">
                     </div>
                     <div class="info">
-                        <h3>Can № 1</h3>
-                        <p class="additional_info_text">with lithography “Екватор”</p>
+                        <h3 class="card_header">Can № 1</h3>
+                        <h3 class="additional_info_text">with lithography “Екватор”</h3>
                     </div>
                 </div>
                 <div class="catalog-card">
@@ -338,8 +326,8 @@
                         <img src="assets/images/product_12.png" alt="Product Image">
                     </div>
                     <div class="info">
-                        <h3>Can № 1</h3>
-                        <p class="additional_info_text">with lithography “Veladis”</p>
+                        <h3 class="card_header">Can № 1</h3>
+                        <h3 class="additional_info_text">with lithography “Veladis”</h3>
                     </div>
                 </div>
                 <div class="catalog-card">
@@ -347,7 +335,7 @@
                         <img src="assets/images/lid_1.png" alt="Product Image">
                     </div>
                     <div class="info">
-                        <h3>Tin Lid and EOE 83,4</h3>
+                        <h3 class="card_header">Tin Lid and EOE 83,4</h3>
                     </div>
                 </div>
                 <div class="catalog-card">
@@ -355,7 +343,7 @@
                         <img src="assets/images/lid_2.png" alt="Product Image">
                     </div>
                     <div class="info">
-                        <h3>Tin Lid and EOE 99</h3>
+                        <h3 class="card_header">Tin Lid and EOE 99</h3>
                     </div>
                 </div>
                 <div class="catalog-card">
@@ -363,7 +351,7 @@
                         <img src="assets/images/lid_3.png" alt="Product Image">
                     </div>
                     <div class="info">
-                        <h3>Tin Lid and EOE 73</h3>
+                        <h3 class="card_header">Tin Lid and EOE 73</h3>
                     </div>
                 </div>
             </section>
@@ -476,10 +464,10 @@
             </div>
         </div>
     </section>
-    <section id="about-us" class="about-us-section">
+    <section id="about-us-section" class="about-us-section">
         <div class="section-header">
             <div class="subheader-container">
-                <h2 class="subheader">About the Company</h2>
+                <h2 id="about_us_header" class="subheader">About the Company</h2>
                 <h3>Since 2008</h3>
             </div>
         </div>
@@ -505,7 +493,7 @@
                     </p>
                 </div>
                 <div class="about-us-image-container">
-                    <img class="about-image" src="assets/images/DSC03276_resized.jpg" alt="photo">
+                    <img class="about-image" src="assets/images/2024-09-18 13.36.50.jpg" alt="photo">
                 </div>
             </div>
         </div>
@@ -514,28 +502,28 @@
     <section id="contacts" class="contact-us-section">
         <div class="section-header">
             <div class="subheader-container">
-                <h2 id="contacts_header" class="subheader">Contacts</h2>
+                <h2 class="contacts_header subheader">Contacts</h2>
                 <h3 id="contacts_description">Our staff will be happy to assist you and answer your questions</h3>
             </div>
         </div>
         <div class="container">
             <div class="row-3-wrapper">
                 <div class="contact-container">
-                    <h3>Sales Department:</h3>
-                    <p>Vadim Dmitrovich Chakir</p>
+                    <h3 class="sales_label">Sales Department:</h3>
+                    <p class="sales_name">Vadim Dmitrovich Chakir</p>
                     <p>Email: vadymchakyr@gmail.com</p>
                     <p>Tel: +38 (093) 837-58-27</p>
                 </div>
                 <div class="contact-container">
-                    <h3>Supply Department:</h3>
-                    <p>Olga Yurievna Khudokormova</p>
+                    <h3 class="supply_label">Supply Department:</h3>
+                    <p class="supply_name">Olga Yurievna Khudokormova</p>
                     <p>Email: hudokormova75@gmail.com</p>
                     <p>Tel: +38 (067) 562-83-24</p>
                     <p>Tel: +38 (056) 732-03-40</p>
                 </div>
                 <div class="contact-container">
-                    <h3>Commercial Department</h3>
-                    <p>Andrii Sidorenko</p>
+                    <h3 id="commercial_label">Commercial Department</h3>
+                    <p id="commercial_name">Andrii Sidorenko</p>
                     <p>Email: sidorenko.a1zpi@ukr.net</p>
                     <p>WhatsApp: +380(99)2058255</p>
                 </div>
