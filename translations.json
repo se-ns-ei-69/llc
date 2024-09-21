@@ -15,7 +15,10 @@
         "label": "Продукція",
         "description": "У виробництві жерстяних банок, ЗПІ Дніпровському банки нарізаються із заготовок жерсті. Після формування всі шви обробляються порошковим, а потім рідким лаком.За бажанням замовника можна додати літографію з логотипом та іншими маркуваннями. Виробництво вимагає високої точності та контролю на кожному етапі для забезпечення якості й безпеки продукції."
       },
-      "about": "Про компанію",
+      "about": {
+        "label":"Про компанію",
+        "description":"З 2008 року"
+      },
       "contacts": {
         "label": "Контакти",
         "description": "Наші співробітники будуть раді вам допомогти і відповісти на запитання"
@@ -42,6 +45,22 @@
           "name": "Андрій Сидоренко"
         }
       }
+    },
+    "address": {
+      "label1": "Юридична адреса",
+      "label2": "Адреса виробництва в м. Дніпро",
+      "label3": "Адреса виробництва в м. Кам'янка-Дніпровська",
+      "field1": "49021, м. Дніпро, вул. Симиренківська 4А, кімната 409.",
+      "field2": "м. Дніпро, вул. Симиренківська 4А.",
+      "field3": "м. Кам'янка-Дніпровська, вул. Промислова 1."
+    },
+    "pdfButton": {
+      "label": "Річний звіт"
+    },
+    "table": {
+      "thNumber": "Номер",
+      "thName": "Назва виробу",
+      "thSize": "Розмір виробу"
     }
   },
   "en" : {
@@ -60,7 +79,10 @@
         "label": "Products",
         "description": "In the production of tin cans at ZPI Dneprovskyi, cans are cut from tin blanks. After forming, all seams are treated with powder lacquer, followed by liquid lacquer. At the customer's request, lithography with logos and other markings can be applied. The production requires high precision and control at every stage to ensure product quality and\nsafety."
       },
-      "about": "About company",
+      "about": {
+        "label":"About company",
+        "description": "Since 2008"
+      },
       "contacts": {
         "label": "Contacts",
         "description": "Our staff will be happy to assist you and answer your questions"
@@ -87,6 +109,22 @@
           "name": "Andrii Sidorenko"
         }
       }
+    },
+    "address": {
+      "label1": "Legal address",
+      "label2": "Production address in Dnipro",
+      "label3": "Production address in Kamianka-Dniprovs'ka",
+      "field1":"Symyrenkivsʹka St, 4а, Dnipro, 49021.",
+      "field2": "Symyrenkivsʹka St, 4a, Dnipro.",
+      "field3": "Promyslova St, 1, Kamianka-Dniprovs'ka."
+    },
+    "pdfButton": {
+      "label": "Annual report"
+    },
+    "table": {
+      "thNumber": "Number",
+      "thName": "Product name",
+      "thSize": "Product size"
     }
   }
 }

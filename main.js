@@ -54,7 +54,7 @@ const cardsContentArray = {
         ['Жерстяна Банка №12'],
         ['Жерстяна Банка №2'],
         ['Банка №5'],
-        ['Банка №12 б', 'з літографією “Добре Поїсти”'],
+        ['Банка №12', 'з літографією “Добре Поїсти”'],
         ['Банка №1', 'з літографією “Екватор”'],
         ['Банка №1', 'з літографією “Veladis”'],
         ['Жерстяна кришка та EOE 83,4'],
@@ -71,7 +71,7 @@ const cardsContentArray = {
         ['Tin Can №12'],
         ['Tin Can №2'],
         ['Can №5', 'with lithography “BiG BOB”'],
-        ['Can №12 b', 'with lithography “Добре Поїсти”'],
+        ['Can №12', 'with lithography “Добре Поїсти”'],
         ['Can №1', 'with lithography “Екватор”'],
         ['Can №1', 'with lithography “Veladis”'],
         ['Tin Lid and EOE 83,4'],
@@ -124,7 +124,8 @@ function switchLanguage(lang) {
         document.getElementById('hero_header').textContent = translations[lang].name;
         document.getElementById('partners_header').textContent = translations[lang].subheaders.partners;
 
-        document.getElementById('about_us_header').textContent = translations[lang].subheaders.about;
+        document.getElementById('about_us_header').textContent = translations[lang].subheaders.about.label;
+        document.getElementById('about_description').textContent = translations[lang].subheaders.about.description;
         document.getElementById('about-text-part1').textContent = translations[lang].hero_text.about.part1;
         document.getElementById('about-text-part2').textContent = translations[lang].hero_text.about.part2;
 
@@ -142,6 +143,22 @@ function switchLanguage(lang) {
 
         document.getElementById('commercial_label').textContent = translations[lang].contacts.staff.commercial.label;
         document.getElementById('commercial_name').textContent = translations[lang].contacts.staff.commercial.name;
+
+//table head
+        document.getElementById('tHeader_number').textContent = translations[lang].table.thNumber;
+        document.getElementById('tHeader_name').textContent = translations[lang].table.thName;
+        document.getElementById('tHeader_size').textContent = translations[lang].table.thSize;
+
+        document.getElementById('pdfButton').textContent = translations[lang].pdfButton.label;
+
+//address
+        document.getElementById('label1').textContent = translations[lang].address.label1;
+        document.getElementById('label2').textContent = translations[lang].address.label2;
+        document.getElementById('label3').textContent = translations[lang].address.label3;
+
+        document.getElementById('field1').textContent = translations[lang].address.field1;
+        document.getElementById('field2').textContent = translations[lang].address.field2;
+        document.getElementById('field3').textContent = translations[lang].address.field3;
 
         if (lang === 'ua') {
             document.getElementById('switch-to-ua').classList.add('active');
