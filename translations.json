@@ -32,6 +32,10 @@
     },
     "contacts": {
       "staff": {
+        "director": {
+          "label": "Директор",
+          "name": "Андрій Левіс"
+        },
         "sales": {
           "label": "Відділ продажів",
           "name": "Вадим Дмитрович Чакир"
@@ -49,10 +53,8 @@
     "address": {
       "label1": "Юридична адреса",
       "label2": "Адреса виробництва в м. Дніпро",
-      "label3": "Адреса виробництва в м. Кам'янка-Дніпровська",
       "field1": "49021, м. Дніпро, вул. Симиренківська 4А, кімната 409.",
-      "field2": "м. Дніпро, вул. Симиренківська 4А.",
-      "field3": "м. Кам'янка-Дніпровська, вул. Промислова 1."
+      "field2": "м. Дніпро, вул. Симиренківська 4А."
     },
     "pdfButton": {
       "label": "Річний звіт"
@@ -96,6 +98,10 @@
     },
     "contacts": {
       "staff": {
+        "director": {
+          "label": "Director",
+          "name": "Andrii Levis"
+        },
         "sales": {
           "label": "Sales Department",
           "name": "Vadim Dmitrovich Chakir"
@@ -113,10 +119,8 @@
     "address": {
       "label1": "Legal address",
       "label2": "Production address in Dnipro",
-      "label3": "Production address in Kamianka-Dniprovs'ka",
       "field1":"Symyrenkivsʹka St, 4а, Dnipro, 49021.",
-      "field2": "Symyrenkivsʹka St, 4a, Dnipro.",
-      "field3": "Promyslova St, 1, Kamianka-Dniprovs'ka."
+      "field2": "Symyrenkivsʹka St, 4a, Dnipro."
     },
     "pdfButton": {
       "label": "Annual report"
