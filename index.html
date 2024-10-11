@@ -8,51 +8,53 @@
     <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-<header class="header">
-    <div class="header-wrapper">
-        <div class="logo-wrapper">
-            <a href="#" class="menu-link"><img src="assets/images/logo/logo1.png" alt="dp logo" width="100"></a>
-        </div>
-        <div class="nav_container">
-            <nav class="nav" id="nav">
-                <ul id="navigation" class="nav-list">
-                    <li>
-                        <a class="nav-link menu-link" id="menu-item-products" href="#product-section">Продукція</a>
-                    </li>
-                    <li >
-                        <a class="nav-link menu-link" id="menu-item-about-company" href="#about-us-section">Про компанію</a>
-                    </li>
-                    <li>
-                        <a class="nav-link menu-link" id="menu-item-contacts" href="#contact-section">Контакти</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="header_right_section">
-            <div class="language-toggle">
-                <button id="switch-to-ua" class="language-button" onclick="switchLanguage('ua')">Укр</button>
-                <span>|</span>
-                <button id="switch-to-en" class="language-button" onclick="switchLanguage('en')">En</button>
+<div class="wrapper">
+    <div class="content">
+        <header class="header">
+            <div class="header-wrapper">
+                <div class="logo-wrapper">
+                    <a href="index.html" class="menu-link"><img src="assets/images/logo/logo1.png" alt="dp logo" width="100"></a>
+                </div>
+                <div class="nav_container">
+                    <nav class="nav" id="nav">
+                        <ul id="navigation" class="nav-list">
+                            <li>
+                                <a class="nav-link menu-link" id="menu-item-products" href="products.html">Продукція</a>
+                            </li>
+                            <li >
+                                <a class="nav-link menu-link" id="menu-item-about-company" href="about-us.html">Про компанію</a>
+                            </li>
+                            <li>
+                                <a class="nav-link menu-link" id="menu-item-contacts" href="contacts.html">Контакти</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header_right_section">
+                    <div class="language-toggle">
+                        <button id="switch-to-ua" class="language-button" onclick="switchLanguage('ua')">Укр</button>
+                        <span>|</span>
+                        <button id="switch-to-en" class="language-button" onclick="switchLanguage('en')">En</button>
+                    </div>
+                    <div class="burger-menu" id="burger-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
             </div>
-            <div class="burger-menu" id="burger-menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </div>
-</header>
-<main>
-    <section class="hero-section">
-        <div class="container">
-            <div class="hero-section-wrapper">
-                <h1 class="hero_header" id="hero_header">LLC Dneprovskiy</h1>
-                <h3 class="hero_subheader">Since 2008</h3>
-            </div>
-        </div>
-    </section>
-    <section class="partners-section">
-                <div class="section-header">
+        </header>
+        <main>
+            <section class="hero-section">
+                <div class="container">
+                    <div class="hero-section-wrapper">
+                        <h1 class="hero_header" id="hero_header">FIP Dneprovskiy</h1>
+                        <h3 class="hero_subheader">Since 2008</h3>
+                    </div>
+                </div>
+            </section>
+            <section class="partners-section">
+                <div class="partners-header-container">
                     <div class="subheader-container">
                         <h3 id="partners_header" class="subheader">Our partners</h3>
                     </div>
@@ -133,436 +135,69 @@
                         </div>
                     </div>
                 </div>
-    </section>
-    <section class="gallery-section">
-            <section class="gallery">
-                <figure class="gallery__item gallery__item--1">
-                    <img src="assets/images/gallery_1.webp" class="gallery__img fit-cover" alt="Image 1">
-                </figure>
-                <figure class="gallery__item gallery__item--2">
-                    <img src="assets/images/gallery_2.webp" class="gallery__img fit-cover" alt="Image 2">
-                </figure>
-                <figure class="gallery__item gallery__item--3">
-                    <img src="assets/images/gallery_4.webp" class="gallery__img fit-cover" alt="Image 3">
-                </figure>
-                <figure class="gallery__item gallery__item--4">
-                    <img src="assets/images/gallery_3.webp" class="gallery__img fit-cover" alt="Image 4">
-                </figure>
-                <figure class="gallery__item gallery__item--5">
-                    <img src="assets/images/gallery_5.webp" class="gallery__img fit-cover" alt="Image 5">
-                </figure>
             </section>
-    </section>
-    <section id="product-section" class="product-section">
-        <div class="section-header">
-            <div class="subheader-container">
-                <h2 id="products_header" class="subheader">Products</h2>
-                <p id="products_description">
-                    All cans produced at ZPI Dneprovskyi undergo rigorous quality control. Tin sheets are cut
-                    into the necessary blanks, which are then subjected to the stamping process. This process
-                    involves pressing the material to form the body of the can. The blank passes through
-                    several presses, gradually forming a cylindrical shape. The body seams are welded to
-                    ensure airtightness. Inside, the seam is coated with powder and liquid lacquer to prevent
-                    corrosion. After assembly, the can is sterilized. Its airtightness and resistance to external
-                    influences are thoroughly tested. At the customer's request, lithography with logos and
-                    other markings is applied to the exterior of the can using special printers, giving the can a
-                    unique style and informing the consumer. The production of tin cans at ZPI Dneprovskyi
-                    requires high precision and control at every stage to ensure the quality and safety of the
-                    product, as well as compliance with industry standards and requirements.
-                </p>
-            </div>
-        </div>
-        <div class="container">
-            <section id="gallery_products" class="gallery_products">
-                <div class="catalog-card">
-                    <div class="image-container">
-                        <img src="assets/images/product_1.png" alt="Product Image">
-                    </div>
-                    <div class="info">
-                        <h3 class="card_header">Tin can №8</h3>
-                    </div>
-                </div>
-                <div class="catalog-card">
-                    <div class="image-container">
-                        <img src="assets/images/product_2.png" alt="Product Image">
-                    </div>
-                    <div class="info">
-                        <h3 class="card_header">Tin can №3</h3>
-                    </div>
-                </div>
-                <div class="catalog-card">
-                    <div class="image-container">
-                        <img src="assets/images/product_3.png" alt="Product Image">
-                    </div>
-                    <div class="info">
-                        <h3 class="card_header">Tin can №1</h3>
-                    </div>
-                </div>
-                <div class="catalog-card">
-                    <div class="image-container">
-                        <img src="assets/images/product_4.png" alt="Product Image">
-                    </div>
-                    <div class="info">
-                        <h3 class="card_header">Tin can №5</h3>
-                    </div>
-                </div>
-                <div class="catalog-card">
-                    <div class="image-container">
-                        <img src="assets/images/product_5.png" alt="Product Image">
-                    </div>
-                    <div class="info">
-                        <h3 class="card_header">Tin can №9</h3>
-                    </div>
-                </div>
-                <div class="catalog-card">
-                    <div class="image-container">
-                        <img src="assets/images/product_6.png" alt="Product Image">
-                    </div>
-                    <div class="info">
-                        <h3 class="card_header">Tin can №49</h3>
-                    </div>
-                </div>
-                <div class="catalog-card">
-                    <div class="image-container">
-                        <img src="assets/images/product_7.png" alt="Product Image">
-                    </div>
-                    <div class="info">
-                        <h3 class="card_header">Tin can №12</h3>
-                    </div>
-                </div>
-                <div class="catalog-card">
-                    <div class="image-container">
-                        <img src="assets/images/product_8.png" alt="Product Image">
-                    </div>
-                    <div class="info">
-                        <h3 class="card_header">Tin can №2</h3>
-                    </div>
-                </div>
-                <div class="catalog-card">
-                    <div class="image-container">
-                        <img src="assets/images/product_9.png" alt="Product Image">
-                    </div>
-                    <div class="info">
-                        <h3 class="card_header">Can № 5</h3>
-                        <h3 class="additional_info_text">with lithography “BiG BOB”</h3>
-                    </div>
-                </div>
-                <div class="catalog-card">
-                    <div class="image-container">
-                        <img src="assets/images/product_10.png" alt="Product Image">
-                    </div>
-                    <div class="info">
-                        <h3 class="card_header">Can № 12</h3>
-                        <h3 class="additional_info_text">with lithography “Добре Поїсти”</h3>
-                    </div>
-                </div>
-                <div class="catalog-card">
-                    <div class="image-container">
-                        <img src="assets/images/product_11.png" alt="Product Image">
-                    </div>
-                    <div class="info">
-                        <h3 class="card_header">Can № 1</h3>
-                        <h3 class="additional_info_text">with lithography “Екватор”</h3>
-                    </div>
-                </div>
-                <div class="catalog-card">
-                    <div class="image-container">
-                        <img src="assets/images/product_12.png" alt="Product Image">
-                    </div>
-                    <div class="info">
-                        <h3 class="card_header">Can № 1</h3>
-                        <h3 class="additional_info_text">with lithography “Veladis”</h3>
-                    </div>
-                </div>
-                <div class="catalog-card">
-                    <div class="image-container">
-                        <img src="assets/images/lid_1.png" alt="Product Image">
-                    </div>
-                    <div class="info">
-                        <h3 class="card_header">Tin Lid and EOE 83,4</h3>
-                    </div>
-                </div>
-                <div class="catalog-card">
-                    <div class="image-container">
-                        <img src="assets/images/lid_2.png" alt="Product Image">
-                    </div>
-                    <div class="info">
-                        <h3 class="card_header">Tin Lid and EOE 99</h3>
-                    </div>
-                </div>
-                <div class="catalog-card">
-                    <div class="image-container">
-                        <img src="assets/images/lid_3.png" alt="Product Image">
-                    </div>
-                    <div class="info">
-                        <h3 class="card_header">Tin Lid and EOE 73</h3>
-                    </div>
-                </div>
+            <section class="gallery-section">
+                <section class="gallery">
+                    <figure class="gallery__item gallery__item--1">
+                        <img src="assets/images/gallery_1.webp" class="gallery__img fit-cover" alt="Image 1">
+                    </figure>
+                    <figure class="gallery__item gallery__item--2">
+                        <img src="assets/images/gallery_2.webp" class="gallery__img fit-cover" alt="Image 2">
+                    </figure>
+                    <figure class="gallery__item gallery__item--3">
+                        <img src="assets/images/gallery_4.webp" class="gallery__img fit-cover" alt="Image 3">
+                    </figure>
+                    <figure class="gallery__item gallery__item--4">
+                        <img src="assets/images/gallery_3.webp" class="gallery__img fit-cover" alt="Image 4">
+                    </figure>
+                    <figure class="gallery__item gallery__item--5">
+                        <img src="assets/images/gallery_5.webp" class="gallery__img fit-cover" alt="Image 5">
+                    </figure>
+                    <figure class="gallery__item gallery__item--6">
+                        <img src="assets/images/gallery_6.webp" class="gallery__img fit-cover" alt="Image 6">
+                    </figure>
+                </section>
             </section>
-        </div>
-    </section>
-    <section class="table-container">
+        </main>
+    </div>
+    <footer>
         <div class="container">
-            <div class="table-container">
-                <table>
-                    <thead>
-                    <tr>
-                        <th id="tHeader_number">Номер</th>
-                        <th id="tHeader_name">Назва виробу</th>
-                        <th id="tHeader_size">Розмір виробу</th>
-                    </tr>
-                    </thead>
-                    <tbody id="products_tbody">
-                    <tr>
-                        <td>1</td>
-                        <td>Жерстяна Банка №49</td>
-                        <td>Зварна банка Ø83,4 мм H не більше ніж 85 мм</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Жерстяна Банка №8</td>
-                        <td>Зварна банка Ø99 мм H не більше ніж 52 мм</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Жерстяна Банка №12</td>
-                        <td>Зварна банка Ø99 мм H не більше ніж 82 мм</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Жерстяна Банка №61</td>
-                        <td>Зварна банка Ø99 мм H не більше ніж 82 мм</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>Жерстяна Банка №66</td>
-                        <td>Зварна банка Ø73 мм H не більше ніж 66 мм</td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td>Жерстяна Банка №9</td>
-                        <td>Зварна банка C Ø73 мм H не більше ніж 95 мм</td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td>Жерстяна Банка №5</td>
-                        <td>Зварна банка Ø83,4 мм H не більше ніж 52 мм</td>
-                    </tr>
-                    <tr>
-                        <td>8</td>
-                        <td>Жерстяна Банка №38</td>
-                        <td>Зварна банка C Ø83,4 мм H не більше ніж 46 мм</td>
-                    </tr>
-                    <tr>
-                        <td>9</td>
-                        <td>Жерстяна Банка №1</td>
-                        <td>Зварна банка Ø73 мм H не більше ніж 31 мм</td>
-                    </tr>
-                    <tr>
-                        <td>10</td>
-                        <td>Жерстяна Банка №1</td>
-                        <td>Зварна банка C Ø73 мм H не більше ніж 32 мм</td>
-                    </tr>
-                    <tr>
-                        <td>11</td>
-                        <td>Жерстяна Банка №5</td>
-                        <td>Тягнута банка C Ø83,4 мм H не більше ніж 52 мм</td>
-                    </tr>
-                    <tr>
-                        <td>12</td>
-                        <td>Жерстяна Банка №3</td>
-                        <td>Тягнута банка C Ø99 мм H не більше ніж 38,5 мм</td>
-                    </tr>
-                    <tr>
-                        <td>13</td>
-                        <td>Жерстяна Банка №3</td>
-                        <td>Тягнута банка C Ø99 H не більше ніж 28 мм</td>
-                    </tr>
-                    <tr>
-                        <td>14</td>
-                        <td>Жерстяна Кришка 99</td>
-                        <td>Кришка Ø83,4 мм</td>
-                    </tr>
-                    <tr>
-                        <td>15</td>
-                        <td>Жерстяна Кришка 83,4</td>
-                        <td>Кришка Ø83,4 мм</td>
-                    </tr>
-                    <tr>
-                        <td>16</td>
-                        <td>Жерстяна Кришка EOE 73</td>
-                        <td>Кришка EOE Ø73 мм</td>
-                    </tr>
-                    <tr>
-                        <td>17</td>
-                        <td>Жерстяна КришкаEOE 83,4</td>
-                        <td>Кришка EOE Ø83,4 мм</td>
-                    </tr>
-                    <tr>
-                        <td>18</td>
-                        <td>Жерстяна КришкаEOE 99</td>
-                        <td>Кришка EOE Ø99 мм</td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-    <section id="about-us-section" class="about-us-section">
-        <div class="section-header">
-            <div class="subheader-container">
-                <h2 id="about_us_header" class="subheader">About the Company</h2>
-                <h3 id="about_description">Since 2008</h3>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row-2-wrapper">
-                <div class="about-us-text-container">
-                    <p id="about-text-part1">
-                        Welcome to the website of Dneprovsky Industrial Products
-                        Plant LLC! We are pleased to introduce you to our plant, a
-                        leading manufacturer of high-quality tin cans for the
-                        production of canned food. Our company was founded in
-                        2008 in the city of Dnipro, Ukraine.
-                    </p>
-                    <p id="about-text-part2">
-                        At our facility, located in the heart of Ukraine, we produce
-                        tin cans that are of high quality due to the special lacquer
-                        coating on both sides. In addition, our cans are lithographed,
-                        which ensures not only durability but also aesthetic appeal.
-                    </p>
-                </div>
-                <div class="about-us-image-container">
-                    <img class="about-image" src="assets/images/about_photo.webp" alt="photo">
-                </div>
-            </div>
-            <div class="bottom_button_wrapper">
-                <a class="pdf-button" href="assets/ZVITUPRAVL2022.pdf" target="_blank">
-                    <div class="button_icon_wrapper">
-                        <img src="assets/images/link_external.svg" width="25px" alt="annual report">
-                    </div>
-                    <span id="pdfButton" >Звітність</span>
-                </a>
-            </div>
-        </div>
-    </section>
-    <section id="contact-section" class="contact-us-section">
-        <div class="section-header">
-            <div class="subheader-container">
-                <h2 class="contacts_header subheader">Contacts</h2>
-                <h3 id="contacts_description">Our staff will be happy to assist you and answer your questions</h3>
-            </div>
-        </div>
-        <div class="container">
-            <div class="address">
-                <div class="address_wrapper">
-                    <div class="address_row">
-                        <h3 id="label1">
-                            Юридична адреса:
-                        </h3>
-                        <p id="field1">
-                            49021, м. Дніпро, вул. Симиренківська 4А, кімната 409.
-                        </p>
-                    </div>
-                    <div class="address_row">
-                        <h3 id="label2">
-                            Адреса виробництва в м. Дніпро:
-                        </h3>
-                        <p id="field2">
-                            м. Дніпро, вул. Симиренківська 4А.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <img class="map_image" src="assets/images/map.png" alt="map image">
-            <div class="row-3-wrapper">
-                <div class="contact-container">
-                    <div class="contact-container_inner">
-                        <h3 id="director_label">Director</h3>
-                        <div class="contacts_rows">
-                            <p id="director_name">Andrii Levis</p>
-                            <div class="contact_row">
-                                <img src="assets/images/mail.svg" width="24px" alt="mail icon">
-                                <a class="contact_link" href="mailto:bazilik@gmail.com">bazilik@gmail.com</a>
-                            </div>
-                            <div class="contact_row">
-                                <img src="assets/images/tel.svg" width="24px" alt="whatsapp icon" />
-                                <a class="contact_link" href="tel:+380 (50) 941-38-98">+380 (50) 941-38-98</a>
-                            </div>
+            <div class="footer-contacts-col">
+                <h1 style="font-size: 22px; color: #3a3a3a">CONTACTS</h1>
+                <div class="row">
+                    <div class="col">
+                        <h2 style="font-size: 18px; color: #3a3a3a" id="director_label">Director</h2>
+                        <p style="font-size: 18px" id="director_name">Andrii Levis</p>
+                        <div class="contact_row">
+                            <img src="assets/images/mail.svg" width="18px" alt="mail icon">
+                            <a style="font-size: 18px" class="contact_link" href="mailto:bazilik@gmail.com">bazilik@gmail.com</a>
+                        </div>
+                        <div class="contact_row">
+                            <img src="assets/images/tel.svg" width="18px" alt="whatsapp icon" />
+                            <a style="font-size: 18px" class="contact_link" href="tel:+380 (50) 941-38-98">+380 (50) 941-38-98</a>
                         </div>
                     </div>
-                    <div class="card_icon_wrapper">
-                        <img src="assets/images/factory_chief.svg" width="100" alt="commercial icon"/>
-                    </div>
-                </div>
-                <div class="contact-container">
-                    <div class="contact-container_inner">
-                        <h3 id="commercial_label">Commercial Department</h3>
-                        <div class="contacts_rows">
-                            <p id="commercial_name">Andrii Sidorenko</p>
-                            <div class="contact_row">
-                                <img src="assets/images/mail.svg" width="24px" alt="mail icon">
-                                <a class="contact_link" href="mailto:sidorenko.a1zpi@ukr.net"> sidorenko.a1zpi@ukr.net</a>
-                            </div>
-                            <div class="contact_row">
-                                <img src="assets/images/whatsapp.svg" width="24px" alt="whatsapp icon" />
-                                <a class="contact_link" href="tel:+38 (067) 562-83-24">+380 (99) 205-82-55</a>
-                            </div>
+                    <div class="col">
+                        <h2 style="font-size: 18px; color: #3a3a3a">Commercial department</h2>
+                        <p style="font-size: 18px" id="commercial_name">Andrii Sidorenko</p>
+                        <div class="contact_row">
+                            <img src="assets/images/mail.svg" width="18px" alt="mail icon">
+                            <a style="font-size: 18px" class="contact_link" href="mailto:sidorenko.a1zpi@ukr.net"> sidorenko.a1zpi@ukr.net</a>
                         </div>
-                    </div>
-                    <div class="card_icon_wrapper">
-                        <img src="assets/images/solid_commercial_d.svg" width="100" alt="commercial icon"/>
-                    </div>
-                </div>
-                <div class="contact-container">
-                    <div class="contact-container_inner">
-                        <h3 class="sales_label">Sales Department:</h3>
-                        <div class="contacts_rows">
-                            <p class="sales_name">Vadim Dmitrovich Chakir</p>
-                            <div class="contact_row">
-                                <img src="assets/images/mail.svg" width="24px" alt="mail icon">
-                                <a class="contact_link" href="mailto:vadymchakyr@gmail.com">vadymchakyr@gmail.com</a>
-                            </div>
-                            <div class="contact_row">
-                                <img src="assets/images/tel.svg" width="24px" alt="phone icon"/>
-                                <a class="contact_link" href="tel:+38 (093) 837-58-27">+38 (093) 837-58-27</a>
-                            </div>
+                        <div class="contact_row">
+                            <img src="assets/images/whatsapp.svg" width="18px" alt="whatsapp icon" />
+                            <a style="font-size: 18px" class="contact_link" href="tel:+38 (067) 562-83-24">+380 (99) 205-82-55</a>
                         </div>
-                    </div>
-                    <div class="card_icon_wrapper">
-                        <img src="assets/images/solid_sales_d.svg" width="100" alt="sales icon"/>
-                    </div>
-                </div>
-                <div class="contact-container">
-                    <div class="contact-container_inner">
-                        <h3 class="supply_label">Supply Department:</h3>
-                        <div class="contacts_rows">
-                            <p class="supply_name">Olga Yurievna Khudokormova</p>
-                            <div class="contact_row">
-                                <img src="assets/images/mail.svg" width="24px" alt="mail icon"/>
-                                <a class="contact_link" href="mailto:hudokormova75@gmail.com"> hudokormova75@gmail.com</a>
-                            </div>
-                            <div class="contact_row">
-                                <img src="assets/images/tel.svg" width="24px" alt="phone icon" />
-                                <a class="contact_link" href="tel:+38 (067) 562-83-24">+38 (067) 562-83-24</a>
-                            </div>
-                            <div class="contact_row">
-                                <img src="assets/images/tel.svg" width="24px" alt="phone icon"/>
-                                <a class="contact_link" href="tel:+38 (056) 732-03-40">+38 (056) 732-03-40</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card_icon_wrapper">
-                        <img src="assets/images/solid_supply_d.svg" width="100" alt="supply icon"/>
                     </div>
                 </div>
             </div>
+            <div class="footer-bottom">
+                <p>© ЗПВ Дніпровський 2008-2024</p>
+            </div>
         </div>
-    </section>
-</main>
-
-<footer>
-</footer>
+    </footer>
+</div>
 <script src="main.js"></script>
+<script src="burger-menu.js"></script>
 </body>
 </html>

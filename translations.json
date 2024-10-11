@@ -8,12 +8,12 @@
       "about_company": "Про компанію",
       "contacts": "Контакти"
     },
-    "name": "ЗПІ Дніпровський",
+    "name": "ЗПВ Дніпровський",
     "subheaders": {
       "partners": "Наші Партнери",
       "products": {
         "label": "Продукція",
-        "description": "У виробництві жерстяних банок, ЗПІ Дніпровському банки нарізаються із заготовок жерсті. Після формування всі шви обробляються порошковим, а потім рідким лаком.За бажанням замовника можна додати літографію з логотипом та іншими маркуваннями. Виробництво вимагає високої точності та контролю на кожному етапі для забезпечення якості й безпеки продукції."
+        "description": "ЗПВ Дніпровский» виготовляє зварну  та суцільнотянуту жерстяну банку. Жерстяну Банку виготовляємо з покриттям лакемалі,  літографією, або з іншими маркуванням за замовленням клієнта. «ЗПВ Дніпровський»контролює виготовлення жерстяної  банки на кожному етапі,  для забезпечення якості  і  безпеки продукції, наших клієнтів."
       },
       "about": {
         "label":"Про компанію",
@@ -26,8 +26,8 @@
     },
     "hero_text": {
       "about": {
-        "part1": "Ласкаво просимо на сайт ТОВ Завод промислових виробів Дніпровський! Ми раді представити Вам наше підприємство, провідного виробника високоякісної жерстяної банки, для виробництва консервів. Наша компанія заснована в 2008 році в місті Дніпро, Україна.",
-        "part2": "На нашому підприємстві, розташованому в серці України, ми виготовляємо високоякісні жерстяні банки. У виробництві жерстяна банка покривається емаллю, лаком або літографією. Покриття лакуванням і емаллю покращує якість виробленої банки. Літографія забезпечує їм не тільки довговічність, але й естетичну привабливість вашої майбутньої продукції"
+        "part1": "Ласкаво просимо на сайт ТОВ «Завод промислових виробів «Дніпровський»! Ми раді представити  вам  наше підприємство, провідного виробника  високоякісних   жерстяних  банок  для виробництва консервів.Наша компанія заснована в 2008 році в місті Дніпро, Україна.",
+        "part2": "Наше підприємство, розташоване  в серці України, ми виготовляємо високоякісні жерстяні банки. Під час виробництва жерстяна банка покривається емаллю, лаком або літографією. Покриття  лаком  і емаллю покращує якість виробленої банки, а літографія забезпечує їм не тільки довговічність, але й естетичну привабливість, вашої майбутньої  продукції."
       }
     },
     "contacts": {
@@ -79,7 +79,7 @@
       "partners": "Our Partners",
       "products": {
         "label": "Products",
-        "description": "In the production of tin cans at ZPI Dneprovskyi, cans are cut from tin blanks. After forming, all seams are treated with powder lacquer, followed by liquid lacquer. At the customer's request, lithography with logos and other markings can be applied. The production requires high precision and control at every stage to ensure product quality and\nsafety."
+        "description": "In the production of tin cans at FIP Dneprovskyi, cans are cut from tin blanks. After forming, all seams are treated with powder lacquer, followed by liquid lacquer. At the customer's request, lithography with logos and other markings can be applied. The production requires high precision and control at every stage to ensure product quality and\nsafety."
       },
       "about": {
         "label":"About company",
@@ -92,7 +92,7 @@
     },
     "hero_text": {
       "about": {
-        "part1": "Welcome to the website of Dneprovsky Industrial Products Plant LLC! We are pleased to introduce you to our plant, a leading manufacturer of high-quality tin cans for the production of canned food. Our company was founded in 2008 in the city of Dnipro, Ukraine.",
+        "part1": "Welcome to the website of FPI Dneprovsky! We are pleased to introduce you to our plant, a leading manufacturer of high-quality tin cans for the production of canned food. Our company was founded in 2008 in the city of Dnipro, Ukraine.",
         "part2": "At our facility, located in the heart of Ukraine, we produce tin cans that are of high quality due to the special lacquer coating on both sides. In addition, our cans \t\t\tare lithographed, which ensures not only durability but also aesthetic appeal."
       }
     },
@@ -104,11 +104,11 @@
         },
         "sales": {
           "label": "Sales Department",
-          "name": "Vadim Dmitrovich Chakir"
+          "name": "Vadim Chakir"
         },
         "supply": {
           "label": "Supply Department",
-          "name": "Olga Yurievna Khudokormova"
+          "name": "Olga Khudokormova"
         },
         "commercial": {
           "label": "Commercial Department",

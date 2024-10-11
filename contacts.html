@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <header class="header">
+                <div class="header-wrapper">
+                    <div class="logo-wrapper">
+                        <a href="index.html" class="menu-link"><img src="assets/images/logo/logo1.png" alt="dp logo" width="100"></a>
+                    </div>
+                    <div class="nav_container">
+                        <nav class="nav" id="nav">
+                            <ul id="navigation" class="nav-list">
+                                <li>
+                                    <a class="nav-link menu-link" id="menu-item-products" href="products.html">Продукція</a>
+                                </li>
+                                <li >
+                                    <a class="nav-link menu-link" id="menu-item-about-company" href="about-us.html">Про компанію</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link menu-link active" id="menu-item-contacts" href="contacts.html">Контакти</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header_right_section">
+                        <div class="language-toggle">
+                            <button id="switch-to-ua" class="language-button" onclick="switchLanguage('ua')">Укр</button>
+                            <span>|</span>
+                            <button id="switch-to-en" class="language-button" onclick="switchLanguage('en')">En</button>
+                        </div>
+                        <div class="burger-menu" id="burger-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main style="padding-top: 105px">
+                <section class="hero">
+                    <div class="parallax-image contacts-image"></div>
+                    <div class="container">
+                        <div class="hero-content">
+                            <h2 class="contacts_header subheader">Contacts</h2>
+                            <h3 class="contacts_description" id="contacts_description">Our staff will be happy to assist you and answer your questions</h3>
+                        </div>
+                    </div>
+                </section>
+                <section id="contact-section" class="contact-us-section">
+                    <div class="container">
+                        <div class="row-3-wrapper">
+                            <div class="contact-container">
+                                <div class="contact-container_inner">
+                                    <h3 id="director_label">Director</h3>
+                                    <div class="contacts_rows">
+                                        <p id="director_name">Andrii Levis</p>
+                                        <div class="contact_row">
+                                            <img src="assets/images/mail.svg" width="24px" alt="mail icon">
+                                            <a class="contact_link" href="mailto:bazilik@gmail.com">bazilik@gmail.com</a>
+                                        </div>
+                                        <div class="contact_row">
+                                            <img src="assets/images/tel.svg" width="24px" alt="whatsapp icon" />
+                                            <a class="contact_link" href="tel:+380 (50) 941-38-98">+380 (50) 941-38-98</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card_icon_wrapper">
+                                    <img src="assets/images/factory_chief.svg" width="100" alt="commercial icon"/>
+                                </div>
+                            </div>
+                            <div class="contact-container">
+                                <div class="contact-container_inner">
+                                    <h3 id="commercial_label">Commercial Department</h3>
+                                    <div class="contacts_rows">
+                                        <p id="commercial_name">Andrii Sidorenko</p>
+                                        <div class="contact_row">
+                                            <img src="assets/images/mail.svg" width="24px" alt="mail icon">
+                                            <a class="contact_link" href="mailto:sidorenko.a1zpi@ukr.net"> sidorenko.a1zpi@ukr.net</a>
+                                        </div>
+                                        <div class="contact_row">
+                                            <img src="assets/images/whatsapp.svg" width="24px" alt="whatsapp icon" />
+                                            <a class="contact_link" href="tel:+38 (067) 562-83-24">+380 (99) 205-82-55</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card_icon_wrapper">
+                                    <img src="assets/images/solid_commercial_d.svg" width="100" alt="commercial icon"/>
+                                </div>
+                            </div>
+                            <div class="contact-container">
+                                <div class="contact-container_inner">
+                                    <h3 class="sales_label">Sales Department:</h3>
+                                    <div class="contacts_rows">
+                                        <p class="sales_name">Vadim Chakir</p>
+                                        <div class="contact_row">
+                                            <img src="assets/images/mail.svg" width="24px" alt="mail icon">
+                                            <a class="contact_link" href="mailto:vadymchakyr@gmail.com">vadymchakyr@gmail.com</a>
+                                        </div>
+                                        <div class="contact_row">
+                                            <img src="assets/images/tel.svg" width="24px" alt="phone icon"/>
+                                            <a class="contact_link" href="tel:+38 (093) 837-58-27">+38 (093) 837-58-27</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card_icon_wrapper">
+                                    <img src="assets/images/solid_sales_d.svg" width="100" alt="sales icon"/>
+                                </div>
+                            </div>
+                            <div class="contact-container">
+                                <div class="contact-container_inner">
+                                    <h3 class="supply_label">Supply Department:</h3>
+                                    <div class="contacts_rows">
+                                        <p class="supply_name">Olga Khudokormova</p>
+                                        <div class="contact_row">
+                                            <img src="assets/images/mail.svg" width="24px" alt="mail icon"/>
+                                            <a class="contact_link" href="mailto:hudokormova75@gmail.com"> hudokormova75@gmail.com</a>
+                                        </div>
+                                        <div class="contact_row">
+                                            <img src="assets/images/tel.svg" width="24px" alt="phone icon" />
+                                            <a class="contact_link" href="tel:+38 (067) 562-83-24">+38 (067) 562-83-24</a>
+                                        </div>
+                                        <div class="contact_row">
+                                            <img src="assets/images/tel.svg" width="24px" alt="phone icon"/>
+                                            <a class="contact_link" href="tel:+38 (056) 732-03-40">+38 (056) 732-03-40</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card_icon_wrapper">
+                                    <img src="assets/images/solid_supply_d.svg" width="100" alt="supply icon"/>
+                                </div>
+                            </div>
+                            <div class="address_wrapper">
+                                <div class="address_row">
+                                    <h3 id="label1">
+                                        Юридична адреса:
+                                    </h3>
+                                    <p id="field1">
+                                        49021, м. Дніпро, вул. Симиренківська 4А, кімната 409.
+                                    </p>
+                                </div>
+                                <div class="address_row">
+                                    <h3 id="label2">
+                                        Адреса виробництва в м. Дніпро:
+                                    </h3>
+                                    <p id="field2">
+                                        м. Дніпро, вул. Симиренківська 4А.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="map_image" src="assets/images/map.png" alt="map image">
+                    </div>
+                </section>
+            </main>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="footer-contacts-col">
+                    <h1 style="font-size: 22px; color: #3a3a3a">CONTACTS</h1>
+                    <div class="row">
+                        <div class="col">
+                            <h2 style="font-size: 18px; color: #3a3a3a" id="director_label">Director</h2>
+                            <p style="font-size: 18px" id="director_name">Andrii Levis</p>
+                            <div class="contact_row">
+                                <img src="assets/images/mail.svg" width="18px" alt="mail icon">
+                                <a style="font-size: 18px" class="contact_link" href="mailto:bazilik@gmail.com">bazilik@gmail.com</a>
+                            </div>
+                            <div class="contact_row">
+                                <img src="assets/images/tel.svg" width="18px" alt="whatsapp icon" />
+                                <a style="font-size: 18px" class="contact_link" href="tel:+380 (50) 941-38-98">+380 (50) 941-38-98</a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <h2 style="font-size: 18px; color: #3a3a3a">Commercial department</h2>
+                            <p style="font-size: 18px" id="commercial_name">Andrii Sidorenko</p>
+                            <div class="contact_row">
+                                <img src="assets/images/mail.svg" width="18px" alt="mail icon">
+                                <a style="font-size: 18px" class="contact_link" href="mailto:sidorenko.a1zpi@ukr.net"> sidorenko.a1zpi@ukr.net</a>
+                            </div>
+                            <div class="contact_row">
+                                <img src="assets/images/whatsapp.svg" width="18px" alt="whatsapp icon" />
+                                <a style="font-size: 18px" class="contact_link" href="tel:+38 (067) 562-83-24">+380 (99) 205-82-55</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>© ЗПВ Дніпровський 2008-2024</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="libs.js"></script>
+    <script src="burger-menu.js"></script>
+</body>
+</html>

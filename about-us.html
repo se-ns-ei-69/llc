@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <header class="header">
+                <div class="header-wrapper">
+                    <div class="logo-wrapper">
+                        <a href="index.html" class="menu-link"><img src="assets/images/logo/logo1.png" alt="dp logo" width="100"></a>
+                    </div>
+                    <div class="nav_container">
+                        <nav class="nav" id="nav">
+                            <ul id="navigation" class="nav-list">
+                                <li>
+                                    <a class="nav-link menu-link" id="menu-item-products" href="products.html">Продукція</a>
+                                </li>
+                                <li >
+                                    <a class="nav-link menu-link active" id="menu-item-about-company" href="about-us.html">Про компанію</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link menu-link" id="menu-item-contacts" href="contacts.html">Контакти</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header_right_section">
+                        <div class="language-toggle">
+                            <button id="switch-to-ua" class="language-button" onclick="switchLanguage('ua')">Укр</button>
+                            <span>|</span>
+                            <button id="switch-to-en" class="language-button" onclick="switchLanguage('en')">En</button>
+                        </div>
+                        <div class="burger-menu" id="burger-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main style="padding-top: 105px">
+                <section class="hero">
+                    <div class="parallax-image about-us-image"></div>
+                    <div class="container">
+                        <div class="hero-content">
+                            <h2 id="about_us_header" class="about_us_header">About the Company</h2>
+                            <h3 class="about_description">Since 2008</h3>
+                        </div>
+                    </div>
+                </section>
+                <section id="about-us-section" class="about-us-section">
+                    <div class="container">
+                        <div class="row-2-wrapper">
+                            <div class="about-us-text-container">
+                                <p id="about-text-part1">
+                                    Welcome to the website of FIP Dneprovskyi! We are pleased to introduce you to our plant, a leading manufacturer of high-quality tin cans for the production of canned food. Our company was founded in 2008 in the city of Dnipro, Ukraine.
+                                </p>
+                                <p id="about-text-part2">
+                                    At our facility, located in the heart of Ukraine, we produce tin cans that are of high quality due to the special lacquer coating on both sides. In addition, our cans \t\t\tare lithographed, which ensures not only durability but also aesthetic appeal.
+                                </p>
+                            </div>
+                            <div class="about-us-image-container">
+                                <img class="about-image" src="assets/images/about_photo.webp" alt="photo">
+                            </div>
+                        </div>
+                        <div class="bottom_button_wrapper">
+                            <a class="pdf-button" href="assets/ZVITUPRAVL2022.pdf" target="_blank">
+                                <div class="button_icon_wrapper">
+                                    <img src="assets/images/link_external.svg" width="25px" alt="annual report">
+                                </div>
+                                <span id="pdfButton" >Звітність</span>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="footer-contacts-col">
+                    <h1 style="font-size: 22px; color: #3a3a3a">CONTACTS</h1>
+                    <div class="row">
+                        <div class="col">
+                            <h2 style="font-size: 18px; color: #3a3a3a" id="director_label">Director</h2>
+                            <p style="font-size: 18px" id="director_name">Andrii Levis</p>
+                            <div class="contact_row">
+                                <img src="assets/images/mail.svg" width="18px" alt="mail icon">
+                                <a style="font-size: 18px" class="contact_link" href="mailto:bazilik@gmail.com">bazilik@gmail.com</a>
+                            </div>
+                            <div class="contact_row">
+                                <img src="assets/images/tel.svg" width="18px" alt="whatsapp icon" />
+                                <a style="font-size: 18px" class="contact_link" href="tel:+380 (50) 941-38-98">+380 (50) 941-38-98</a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <h2 style="font-size: 18px; color: #3a3a3a">Commercial department</h2>
+                            <p style="font-size: 18px" id="commercial_name">Andrii Sidorenko</p>
+                            <div class="contact_row">
+                                <img src="assets/images/mail.svg" width="18px" alt="mail icon">
+                                <a style="font-size: 18px" class="contact_link" href="mailto:sidorenko.a1zpi@ukr.net"> sidorenko.a1zpi@ukr.net</a>
+                            </div>
+                            <div class="contact_row">
+                                <img src="assets/images/whatsapp.svg" width="18px" alt="whatsapp icon" />
+                                <a style="font-size: 18px" class="contact_link" href="tel:+38 (067) 562-83-24">+380 (99) 205-82-55</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>© ЗПВ Дніпровський 2008-2024</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="about-us.js"></script>
+    <script src="burger-menu.js"></script>
+</body>
+</html>
