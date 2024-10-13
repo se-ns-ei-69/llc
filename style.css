@@ -70,7 +70,7 @@ button {
     object-fit: cover;
 }
 .header {
-    z-index: 1;
+    z-index: 2;
     background-color: rgb(255, 255, 255);
     position: fixed;
     width: 100%;
@@ -163,33 +163,32 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url("assets/images/home-hero-image.JPG");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /*background-image: url("assets/images/home-hero-image.JPG");*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
     position: relative;
 }
 .hero-section::after {
     content: "";
     position: absolute;
     inset: 0;
-    /*background: linear-gradient(90deg, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.15));*/
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.15) 50%);
 }
 .hero-section-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.hero_header {
-    background: -webkit-linear-gradient(#87b9b0,#87b9b0, rgba(31, 31, 31, 0));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.hero-header-style {
+    color: #73b6aa;
     text-transform: uppercase;
     font-size: clamp(3rem, 1.1971rem + 5.7692vw, 12rem);
     z-index: 1;
 }
+
 .hero_subheader {
-    color: #87b9b0;
+    color: #73b6aa;
     font-weight: 600;
     font-size: clamp(1rem, 1.1971rem + 5.7692vw, 5rem);
 }
@@ -198,10 +197,9 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: white;
 }
 .carousel {
-    border-top: 2px solid var(--main-orange);
-    border-bottom: 2px solid var(--main-orange);
     padding: 2rem 0;
     width: 100%;
     max-width: calc(100vw - 16px);
@@ -426,6 +424,7 @@ ul {
     color: #73b6aa;
 }
 .section-header {
+    margin-top: 50px;
     padding: 1rem;
     background-color: aliceblue;
     width: 100%;
@@ -450,6 +449,10 @@ ul {
     flex-direction: column;
     gap: 2.5rem;
 }
+.footer-contacts_header {
+    font-size: 22px;
+    color: #656565;
+}
 .footer-bottom {
     display: flex;
     align-items: center;
@@ -463,6 +466,20 @@ ul {
 .row {
     display: flex;
     gap: 2.5rem;
+    flex-wrap: wrap;
+}
+.justify-sb {
+    justify-content: space-between;
+}
+.align-end {
+    align-items: flex-end;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+}
+.gap-2 {
+    gap: 2rem;
 }
 .row-2-wrapper {
     grid-template-columns: repeat(2, 1fr);
@@ -482,12 +499,13 @@ ul {
 .gallery-section {
     display: flex;
     flex-direction: column;
+    background-color: white;
 }
 
 .gallery {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(12, 5vw);
+    grid-template-rows: repeat(11, 5vw);
     grid-gap: 1rem;
 }
 
@@ -744,14 +762,17 @@ tbody td {
 }
 .parallax-image.contacts-image {
     background-position-y: -320px;
-    background-image: url("assets/images/contacts-hero-image-upscale.jpg");
+    background-image: url("assets/images/contacts-hero-image-upscale.webp");
 }
 .parallax-image.about-us-image {
     background-position-y: -120px;
-    background-image: url("assets/images/about-hero-image.jpg");
+    background-image: url("assets/images/about-hero-image.webp");
 }
 .parallax-image.products-image {
-    background-image: url("assets/images/products-hero-image.png");
+    background-image: url("assets/images/products-hero-image.webp");
+}
+.parallax-image.home-image {
+    background-image: url("assets/images/home-hero-image.webp");
 }
 .hero-content {
     height: 100%;
@@ -763,6 +784,7 @@ tbody td {
     border-left: 4px solid #73b6aa;
     padding-left: 1.5rem;
     gap: 2rem;
+    text-align: left;
 }
 .about_us_header {
     color: white;
@@ -782,7 +804,7 @@ tbody td {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg,rgba(0,0,0,.5) .75%,transparent 42.09%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.68) .75%,transparent 42.09%);
     z-index: 0;
 }
 footer {

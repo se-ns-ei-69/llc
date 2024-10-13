@@ -13,7 +13,8 @@
       "partners": "Наші Партнери",
       "products": {
         "label": "Продукція",
-        "description": "ЗПВ Дніпровский» виготовляє зварну  та суцільнотянуту жерстяну банку. Жерстяну Банку виготовляємо з покриттям лакемалі,  літографією, або з іншими маркуванням за замовленням клієнта. «ЗПВ Дніпровський»контролює виготовлення жерстяної  банки на кожному етапі,  для забезпечення якості  і  безпеки продукції, наших клієнтів."
+        "description": "ЗПВ Дніпровский» виготовляє зварну  та суцільнотянуту жерстяну банку. Жерстяну Банку виготовляємо з покриттям лакемалі,  літографією, або з іншими маркуванням за замовленням клієнта. «ЗПВ Дніпровський»контролює виготовлення жерстяної  банки на кожному етапі,  для забезпечення якості  і  безпеки продукції, наших клієнтів.",
+        "subheader": "Банка, що формує твій успіх!"
       },
       "about": {
         "label":"Про компанію",
@@ -42,7 +43,7 @@
         },
         "supply": {
           "label": "Відділ постачання",
-          "name": "Ольга Юріївна Худокормова."
+          "name": "Ольга Юріївна Худокормова"
         },
         "commercial": {
           "label": "Комерційний відділ",
@@ -74,12 +75,13 @@
       "about_company": "About company",
       "contacts":"Contacts"
     },
-    "name": "LLC Dneprovskiy",
+    "name": "FIP Dneprovskiy",
     "subheaders": {
       "partners": "Our Partners",
       "products": {
         "label": "Products",
-        "description": "In the production of tin cans at FIP Dneprovskyi, cans are cut from tin blanks. After forming, all seams are treated with powder lacquer, followed by liquid lacquer. At the customer's request, lithography with logos and other markings can be applied. The production requires high precision and control at every stage to ensure product quality and\nsafety."
+        "description": "In the production of tin cans at FIP Dneprovskyi, cans are cut from tin blanks. After forming, all seams are treated with powder lacquer, followed by liquid lacquer. At the customer's request, lithography with logos and other markings can be applied. The production requires high precision and control at every stage to ensure product quality and\nsafety.",
+        "subheader": "Can that shapes your success!"
       },
       "about": {
         "label":"About company",

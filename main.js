@@ -1,5 +1,10 @@
 let translations = {};
 
+window.addEventListener('scroll', function() {
+    const scrolled = window.scrollY;
+    document.querySelector('.parallax-image').style.transform = `translateY(${scrolled * 0.5}px)`;
+});
+
 function loadTranslations() {
     fetch('translations.json')
         .then(response => response.json())
@@ -18,8 +23,16 @@ function switchLanguage(lang) {
         document.getElementById('menu-item-products').textContent = translations[lang].menu.products;
         document.getElementById('menu-item-about-company').textContent = translations[lang].menu.about_company;
 
-        document.getElementById('hero_header').textContent = translations[lang].name;
+        document.querySelectorAll('.hero_header').forEach(node => node.textContent = translations[lang].name);
         document.getElementById('partners_header').textContent = translations[lang].subheaders.partners;
+
+        document.getElementById('commercial_label').textContent = translations[lang].contacts.staff.commercial.label;
+        document.getElementById('commercial_name').textContent = translations[lang].contacts.staff.commercial.name;
+
+        document.getElementById('director_label').textContent = translations[lang].contacts.staff.director.label;
+        document.getElementById('director_name').textContent = translations[lang].contacts.staff.director.name;
+
+        document.getElementById('footer-contacts_header').textContent = translations[lang].subheaders.contacts.label
 
         if (lang === 'ua') {
             document.getElementById('switch-to-ua').classList.add('active');

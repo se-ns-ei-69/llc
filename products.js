@@ -125,10 +125,22 @@ function switchLanguage(lang) {
         document.getElementById('menu-item-about-company').textContent = translations[lang].menu.about_company;
 
         document.getElementById('products_header').textContent = translations[lang].subheaders.products.label;
+        document.getElementById('products_description').textContent = translations[lang].subheaders.products.description;
+        document.getElementById('products_subheader').textContent = translations[lang].subheaders.products.subheader;
 
         document.getElementById('tHeader_number').textContent = translations[lang].table.thNumber;
         document.getElementById('tHeader_name').textContent = translations[lang].table.thName;
         document.getElementById('tHeader_size').textContent = translations[lang].table.thSize;
+
+        document.getElementById('commercial_label').textContent = translations[lang].contacts.staff.commercial.label;
+        document.getElementById('commercial_name').textContent = translations[lang].contacts.staff.commercial.name;
+
+        document.getElementById('director_label').textContent = translations[lang].contacts.staff.director.label;
+        document.getElementById('director_name').textContent = translations[lang].contacts.staff.director.name;
+        document.querySelectorAll('.hero_header').forEach(node => node.textContent = translations[lang].name);
+
+        document.getElementById('footer-contacts_header').textContent = translations[lang].subheaders.contacts.label
+
 
         if (lang === 'ua') {
             document.getElementById('switch-to-ua').classList.add('active');

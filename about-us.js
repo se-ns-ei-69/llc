@@ -39,6 +39,15 @@ function switchLanguage(lang) {
         document.getElementById('about-text-part2').textContent = translations[lang].hero_text.about.part2;
         document.getElementById('pdfButton').textContent = translations[lang].pdfButton.label;
 
+        document.getElementById('commercial_label').textContent = translations[lang].contacts.staff.commercial.label;
+        document.getElementById('commercial_name').textContent = translations[lang].contacts.staff.commercial.name;
+
+        document.getElementById('director_label').textContent = translations[lang].contacts.staff.director.label;
+        document.getElementById('director_name').textContent = translations[lang].contacts.staff.director.name;
+        document.querySelectorAll('.hero_header').forEach(node => node.textContent = translations[lang].name);
+
+        document.getElementById('footer-contacts_header').textContent = translations[lang].subheaders.contacts.label
+
         if (lang === 'ua') {
             document.getElementById('switch-to-ua').classList.add('active');
         } else {
