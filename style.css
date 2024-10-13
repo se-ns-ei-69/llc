@@ -329,6 +329,7 @@ ul {
 }
 .address_wrapper {
     min-width: max-content;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -756,16 +757,17 @@ tbody td {
     height: 100%;
     background-image: url("https://www.dtek-kem.com.ua/media/site/hero-bg--5-1905.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     object-fit: cover;
     background-position: center;
     z-index: -1;
 }
 .parallax-image.contacts-image {
-    background-position-y: -320px;
+    /*background-position-y: -320px;*/
     background-image: url("assets/images/contacts-hero-image-upscale.webp");
 }
 .parallax-image.about-us-image {
-    background-position-y: -120px;
+    /*background-position-y: -120px;*/
     background-image: url("assets/images/about-hero-image.webp");
 }
 .parallax-image.products-image {
@@ -822,6 +824,12 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    .hero {
+        height: 50vw;
+    }
+    .address_wrapper {
+        min-width: min-content ;
+    }
     .about-us-text-container {
         max-width: 100%;
         font-size: 22px;
