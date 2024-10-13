@@ -55,7 +55,9 @@ button {
     flex-direction: column;
     padding: 1rem;
 }
-
+.subheader-container p {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.09);
+}
 .subheader {
     font-weight: 600;
     text-transform: uppercase;
@@ -427,12 +429,14 @@ ul {
 .section-header {
     margin-top: 50px;
     padding: 1rem;
+    /*background: linear-gradient(to bottom, #f0f8ff, #e0eafc);*/
     background-color: aliceblue;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: 2px solid rgb(231, 231, 231);
 }
 .section-header h3, h2 {
     color: black;
